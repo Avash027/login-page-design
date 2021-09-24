@@ -1,0 +1,232 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+
+  &-rect {
+    &-left {
+      position: relative;
+      background-color: $color-primary;
+
+      &-text {
+        height: 7.5rem;
+        width: convert(354px);
+        margin-left: 22%;
+        margin-top: convert(153px);
+        display: block;
+        font-size: convert(40px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: convert(60px);
+        letter-spacing: 0em;
+        text-align: left;
+      }
+
+      &-img {
+        width: 100%;
+        height: 31rem;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2%;
+      }
+    }
+
+    &-right {
+      background-color: $color-background;
+
+      &-form {
+        display: block;
+        height: 80vh;
+        width: 64%;
+        margin: auto;
+        margin-top: 6rem;
+
+        &-header {
+          height: convert(44px);
+          width: convert(387px);
+          margin-left: 1.6rem;
+          margin-top: 9.1rem;
+
+          text-align: center;
+          font-size: 29px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 44px;
+          letter-spacing: 0em;
+        }
+
+        &-label {
+          &-1 {
+            position: absolute;
+            width: convert(76px);
+            height: convert(21px);
+            margin-left: 1.8%;
+            margin-top: 4rem;
+          }
+
+          &-2 {
+            position: absolute;
+            width: convert(75px);
+            height: convert(21px);
+            margin-top: 4rem;
+            margin-left: 15%;
+          }
+
+          &-3 {
+            position: absolute;
+            margin-left: 1.8%;
+            margin-top: 9.5rem;
+            width: convert(101px);
+            height: convert(21px);
+          }
+
+          &-4 {
+            position: absolute;
+            margin-left: 1.8%;
+            margin-top: 14.6rem;
+            width: convert(117px);
+            height: convert(21px);
+          }
+
+          &-5 {
+            position: absolute;
+            width: convert(85px);
+            height: convert(21px);
+            margin-left: 1.8%;
+            margin-top: 19.7rem;
+          }
+
+          &-6 {
+            position: absolute;
+            margin-left: 15%;
+            margin-top: 19.6rem;
+            width: convert(135px);
+            height: convert(21px);
+          }
+
+          &-7 {
+            position: absolute;
+            width: convert(69px);
+            height: convert(21px);
+            margin-left: 1.8%;
+            margin-top: 25rem;
+          }
+        }
+
+        &-textfield {
+          &-1 {
+            margin-left: 1.5%;
+            margin-top: 5.77rem;
+          }
+
+          &-2 {
+            margin-left: 14.9%;
+            margin-top: 5.77rem;
+          }
+
+          &-3 {
+            margin-left: 1.5%;
+            margin-top: 11rem;
+          }
+
+          &-4 {
+            margin-left: 1.5%;
+            margin-top: 16rem;
+          }
+          &-5 {
+            margin-left: 1.5%;
+            margin-top: 21.3rem;
+          }
+          &-6 {
+            margin-left: 14.9%;
+            margin-top: 21.3rem;
+          }
+          &-7 {
+            margin-left: 1.5%;
+            margin-top: 26.4rem;
+          }
+        }
+        &-terms {
+          position: absolute;
+          font-weight: normal;
+          font-size: convert(12px);
+          line-height: convert(18px);
+          margin-top: 29.4rem;
+          margin-left: 3rem;
+        }
+
+        &-button {
+          position: absolute;
+          width: convert(225px);
+          height: convert(40px);
+          background: #c1dff5;
+          border-radius: convert(5px);
+          border: none;
+          outline: none;
+          margin-left: 1.5%;
+          margin-top: 32rem;
+          cursor: pointer;
+        }
+        &-bottom {
+          margin-left: 4%;
+          margin-top: 36rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1214px) {
+  .login {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+
+    &-rect-left-text {
+      margin-left: 15%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .login {
+    &-rect-left-text {
+      margin-left: 9%;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .login {
+    &-rect-left-text {
+      margin-left: 5%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .login-rect-right-form {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .login-rect-right-form-header {
+    font-size: 1.5rem;
+    margin-left: -1.5rem;
+  }
+}
+
+@media only screen and (max-width: 782px) {
+  .login-rect-right-form {
+    &-terms {
+      font-size: 0.7rem;
+    }
+
+    &-bottom {
+      font-size: 0.6rem;
+    }
+  }
+}

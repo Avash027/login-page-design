@@ -1,13 +1,220 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.label {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.textfield-1 {
+  position: absolute;
+  height: 2.1875rem;
+  border-radius: 0.3125rem;
+  outline: none;
+  border: none;
+  width: 10.6875rem;
+  background-color: rgba(229, 229, 229, 0.48); }
+
+.textfield-2 {
+  position: absolute;
+  height: 2.1875rem;
+  border-radius: 0.3125rem;
+  outline: none;
+  border: none;
+  width: 23.3125rem;
+  background-color: rgba(229, 229, 229, 0.48); }
+
+@media only screen and (max-width: 1376px) {
+  .textfield-1 {
+    width: 9.625rem; } }
+
+@media only screen and (max-width: 1214px) {
+  .textfield-1 {
+    width: 7.625rem; } }
+
+@media only screen and (max-width: 946px) {
+  .textfield-1 {
+    width: 5.625rem; } }
+
+@media only screen and (max-width: 816px) {
+  .textfield-2 {
+    width: 17.135rem; } }
+
+.checkbox {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin-left: 1.5%;
+  border: 1px solid #c0c0c0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 29.4rem;
+  cursor: pointer; }
+
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5fr 7fr; }
+  .login-rect-left {
+    position: relative;
+    background-color: #c1dff5; }
+    .login-rect-left-text {
+      height: 7.5rem;
+      width: 22.125rem;
+      margin-left: 22%;
+      margin-top: 9.5625rem;
+      display: block;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.75rem;
+      letter-spacing: 0em;
+      text-align: left; }
+    .login-rect-left-img {
+      width: 100%;
+      height: 31rem;
+      display: block;
+      margin-top: 2rem;
+      margin-left: 2%; }
+  .login-rect-right {
+    background-color: #ffff; }
+    .login-rect-right-form {
+      display: block;
+      height: 80vh;
+      width: 64%;
+      margin: auto;
+      margin-top: 6rem; }
+      .login-rect-right-form-header {
+        height: 2.75rem;
+        width: 24.1875rem;
+        margin-left: 1.6rem;
+        margin-top: 9.1rem;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: 0em; }
+      .login-rect-right-form-label-1 {
+        position: absolute;
+        width: 4.75rem;
+        height: 1.3125rem;
+        margin-left: 1.8%;
+        margin-top: 4rem; }
+      .login-rect-right-form-label-2 {
+        position: absolute;
+        width: 4.6875rem;
+        height: 1.3125rem;
+        margin-top: 4rem;
+        margin-left: 15%; }
+      .login-rect-right-form-label-3 {
+        position: absolute;
+        margin-left: 1.8%;
+        margin-top: 9.5rem;
+        width: 6.3125rem;
+        height: 1.3125rem; }
+      .login-rect-right-form-label-4 {
+        position: absolute;
+        margin-left: 1.8%;
+        margin-top: 14.6rem;
+        width: 7.3125rem;
+        height: 1.3125rem; }
+      .login-rect-right-form-label-5 {
+        position: absolute;
+        width: 5.3125rem;
+        height: 1.3125rem;
+        margin-left: 1.8%;
+        margin-top: 19.7rem; }
+      .login-rect-right-form-label-6 {
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 19.6rem;
+        width: 8.4375rem;
+        height: 1.3125rem; }
+      .login-rect-right-form-label-7 {
+        position: absolute;
+        width: 4.3125rem;
+        height: 1.3125rem;
+        margin-left: 1.8%;
+        margin-top: 25rem; }
+      .login-rect-right-form-textfield-1 {
+        margin-left: 1.5%;
+        margin-top: 5.77rem; }
+      .login-rect-right-form-textfield-2 {
+        margin-left: 14.9%;
+        margin-top: 5.77rem; }
+      .login-rect-right-form-textfield-3 {
+        margin-left: 1.5%;
+        margin-top: 11rem; }
+      .login-rect-right-form-textfield-4 {
+        margin-left: 1.5%;
+        margin-top: 16rem; }
+      .login-rect-right-form-textfield-5 {
+        margin-left: 1.5%;
+        margin-top: 21.3rem; }
+      .login-rect-right-form-textfield-6 {
+        margin-left: 14.9%;
+        margin-top: 21.3rem; }
+      .login-rect-right-form-textfield-7 {
+        margin-left: 1.5%;
+        margin-top: 26.4rem; }
+      .login-rect-right-form-terms {
+        position: absolute;
+        font-weight: normal;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        margin-top: 29.4rem;
+        margin-left: 3rem; }
+      .login-rect-right-form-button {
+        position: absolute;
+        width: 14.0625rem;
+        height: 2.5rem;
+        background: #c1dff5;
+        border-radius: 0.3125rem;
+        border: none;
+        outline: none;
+        margin-left: 1.5%;
+        margin-top: 32rem;
+        cursor: pointer; }
+      .login-rect-right-form-bottom {
+        margin-left: 4%;
+        margin-top: 36rem; }
+
+@media only screen and (max-width: 1214px) {
+  .login {
+    display: grid;
+    grid-template-columns: 4fr 7fr; }
+    .login-rect-left-text {
+      margin-left: 15%; } }
+
+@media only screen and (max-width: 1055px) {
+  .login-rect-left-text {
+    margin-left: 9%;
+    font-size: 2rem; } }
+
+@media only screen and (max-width: 1020px) {
+  .login-rect-left-text {
+    margin-left: 5%;
+    font-size: 1.5rem; } }
+
+@media only screen and (max-width: 1020px) {
+  .login-rect-right-form {
+    margin-left: 2rem; } }
+
+@media only screen and (max-width: 834px) {
+  .login-rect-right-form-header {
+    font-size: 1.5rem;
+    margin-left: -1.5rem; } }
+
+@media only screen and (max-width: 782px) {
+  .login-rect-right-form-terms {
+    font-size: 0.7rem; }
+  .login-rect-right-form-bottom {
+    font-size: 0.6rem; } }

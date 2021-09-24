@@ -1,0 +1,46 @@
+.textfield {
+  &-1 {
+    position: absolute;
+    height: convert(35px);
+    border-radius: convert(5px);
+    outline: none;
+    border: none;
+    width: convert(171px);
+    background-color: $color-background-text;
+  }
+
+  &-2 {
+    position: absolute;
+    height: convert(35px);
+    border-radius: convert(5px);
+    outline: none;
+    border: none;
+    width: convert(373px);
+
+    background-color: $color-background-text;
+  }
+}
+
+@media only screen and (max-width: 1376px) {
+  .textfield-1 {
+    width: convert(154px);
+  }
+}
+
+@media only screen and (max-width: 1214px) {
+  .textfield-1 {
+    width: 7.625rem;
+  }
+}
+
+@media only screen and (max-width: 946px) {
+  .textfield-1 {
+    width: 5.625rem;
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .textfield-2 {
+    width: 17.135rem;
+  }
+}
